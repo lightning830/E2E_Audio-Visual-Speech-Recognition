@@ -1,4 +1,6 @@
 # E2E_AudioVisualSpeechRecognition
+![b](https://img.shields.io/github/license/lightning830/E2E_AudioVisualSpeechRecognition)
+
 Conformer based early fusion model for audio-visual speech recognition
 
 ![a](https://github.com/lightning830/E2E_AudioVisualSpeechRecognition/blob/master/av_model2.png)
