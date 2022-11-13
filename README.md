@@ -31,5 +31,5 @@ Test WER or CER in LRS2/test.txt.
 
 
 ## Reference
-https://ken.ieice.org/ken/paper/20221022hCNR/\
+https://ken.ieice.org/ken/paper/20221022hCNR/ \
 N.Aoki (Department of Information Science, Tokyo Univ. of Sci.)
