@@ -1,2 +1,15 @@
 # E2E_AudioVisualSpeechRecognition
 Conformer based early fusion model for audio-visual speech recognition
+
+![a](https://github.com/lightning830/E2E_AudioVisualSpeechRecognition/blob/master/av_model2.png)
+
+## Requirement
+
+## Usage
+
+## Features
+
+## Reference
+https://ken.ieice.org/ken/paper/20221022hCNR/
+## Author
+N.Aoki (Department of Information Science, Tokyo Univ. of Sci.)
