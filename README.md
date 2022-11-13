@@ -6,7 +6,13 @@ Conformer based early fusion model for audio-visual speech recognition
 ![a](https://github.com/lightning830/E2E_AudioVisualSpeechRecognition/blob/master/av_model2.png)
 
 ## Requirement
-torch 1.10.0
+torch 1.10.0 + gpu
+matplotlib
+editdistance
+scipy
+opencv
+librosa
+/conformer
 
 ## Usage
 
