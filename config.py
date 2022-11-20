@@ -6,7 +6,7 @@ args["CODE_DIRECTORY"] = "/home/python/deep_avsr_conformer"  #absolute path to t
 args["DATA_DIRECTORY"] = "/home/python/datasets/mvlrs_v1"  #absolute path to the data directory
 args["NOISE_DIRECTORY"] = "/home/python/datasets/JNASNOISE_16000" #absolute path to the noise directory
 args["DEMO_DIRECTORY"] = None   #absolute path to the demo directory
-args["PRETRAINED_MODEL_FILE"] = "/audio_visual/record/checkpoints_VO3/models/pretrain_003w-step_0120-wer_1.029.pt"     #relative path to the pretrained model file "/audio_visual/..."
+args["PRETRAINED_MODEL_FILE"] = "/audio_visual/record/checkpoints_VO21/models/pretrain_021w-step_0100-wer_0.950.pt"     #relative path to the pretrained model file "/audio_visual/..."
 args["TRAINED_MODEL_FILE"] = "/audio_visual/record/checkpoints_AV_train_joint256/models/train-step_0300-wer_0.198.pt"   #relative path to the trained model file
 # args["TRAINED_MODEL_FILE"] = "/audio_visual/record/checkpoints_AV_train_v2/models/train-step_0300-wer_0.221.pt"   #relative path to the trained model file
 # args["TRAINED_MODEL_FILE"] = "/audio_visual/record/checkpoints_AOtrain/models/train-step_0120-wer_0.268.pt"   #relative path to the trained model file
@@ -17,7 +17,7 @@ args["TRAINED_FRONTEND_FILE"] = "/home/python/deep_avsr_conformer/audio_visual/f
 #data
 args["PRETRAIN_VAL_SPLIT"] = 0.01   #validation set size fraction during pretraining
 args["NUM_WORKERS"] = 20 #dataloader num_workers argument
-args["PRETRAIN_NUM_WORDS"] = 5  #number of words limit in current curriculum learning iteration
+args["PRETRAIN_NUM_WORDS"] = 29  #number of words limit in current curriculum learning iteration
 args["MAIN_REQ_INPUT_LENGTH"] = 145 #minimum input length while training
 args["CHAR_TO_INDEX"] = {" ":1, "'":22, "1":30, "0":29, "3":37, "2":32, "5":34, "4":38, "7":36, "6":35, "9":31, "8":33,
                          "A":5, "C":17, "B":20, "E":2, "D":12, "G":16, "F":19, "I":6, "H":9, "K":24, "J":25, "M":18,
@@ -52,7 +52,7 @@ args["NORMALIZATION_STD"] = 0.1688  #standard deviation value for normalization 
 
 #training
 args["SEED"] = 324 #seed for random number generators
-args["BATCH_SIZE"] = 64 #minibatch size
+args["BATCH_SIZE"] = 20 #minibatch size
 args["STEP_SIZE"] = 16384   #number of samples in one step (virtual epoch)
 args["NUM_STEPS"] = 1000 #maximum number of steps to train for (early stopping is used)
 args["SAVE_FREQUENCY"] = 10 #saving the model weights and loss/metric plots after every these many steps

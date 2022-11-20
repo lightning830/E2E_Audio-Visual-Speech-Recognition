@@ -10,7 +10,7 @@ import os, shutil
 
 from config import args
 import logging
-from models.v_net import VNet
+from models.av_net import AVNet
 from models.loss import CustomLoss
 from data.lrs2_dataset import LRS2Pretrain
 from data.utils import collate_fn
